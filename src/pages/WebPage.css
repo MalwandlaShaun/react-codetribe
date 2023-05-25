@@ -1,0 +1,90 @@
+/* HeroSection.css */
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+  }
+  
+  .card {
+    width: 220px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+  }
+  
+  .arrow-icon{
+    transform: scale(3, .7);
+    margin-left: 20px;
+  }
+  .card-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+    rotate: calc(-30deg);
+    transform: scaleX(-1);
+    translate: 0 20px;
+
+  }
+  
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .card-price {
+    font-size:40px;
+    color: rgb(185, 37, 173);
+    margin: 0;
+    padding: 0;
+  }
+  .card-img-container{
+    border-radius: 25%;
+    width: 220px;
+    height: 220px;
+
+  }
+
+  .card-details{
+    color: rgb(185, 37, 173);
+  }
+
+  /* Styles for the sidebar */
+
+  .sidebar {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  .sidebar-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+    rotate: calc(-30deg);
+    transform: scaleX(-1);
+    translate: 0 20px;
+  }
+  
+  .sidebar-content {
+    padding: 16px;
+  }
+  
+  .sidebar-content h3 {
+    margin: 0;
+  }
+  
+  .sidebar-content p {
+    margin-top: 8px;
+    color: #666;
+  }
+  
+  .sidebar-image-container{
+    background-color: rgb(89, 0, 255);
+  }
