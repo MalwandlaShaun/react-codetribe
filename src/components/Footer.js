@@ -5,9 +5,9 @@ const Footer = () => {
   return (
     <footer>
       <div className="links">
-        <a href="#">New arrivals</a>
-        <a href="#">Popular</a>
-        <a href="#">Recommended</a>
+        <a href="/">New arrivals</a>
+        <a href="/">Popular</a>
+        <a href="/">Recommended</a>
       </div>
       <div className="navigation">
         <div className="back">Back</div>

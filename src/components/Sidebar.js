@@ -11,7 +11,7 @@ const Sidebar = () => {
 <div className='icon-degrees' >
   5
 </div>
-<img src={deg360} className='deg360'/>
+<img src={deg360} alt="icon" className='deg360'/>
       <div className="sidebar-image-container">
         <img
           className="sidebar-image"
