@@ -26,10 +26,20 @@
     rotate: calc(-30deg);
     transform: scaleX(-1);
     translate: 0 20px;
-
   }
   
   
+.card-plus{
+  position: absolute;
+  top: -50px;
+  left: 0px;
+  cursor: pointer;
+  border-radius: 35%;
+  padding: 20px;
+  background-color: white;
+  translate: 0 50px;
+}
+
   .card-title {
     font-size: 18px;
     font-weight: bold;
@@ -43,6 +53,7 @@
     padding: 0;
   }
   .card-img-container{
+    position: relative;
     border-radius: 25%;
     width: 220px;
     height: 220px;
@@ -56,35 +67,45 @@
   /* Styles for the sidebar */
 
   .sidebar {
-    width: 300px;
+    width: 400px;
+    height: 80vh;
+    margin-left: 50px;
     border: 1px solid #ccc;
-    border-radius: 8px;
+    border-radius: 35px;
+    background-color: rgb(89, 0, 255);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
   }
   
  
   .sidebar-image {
-    width: 100%;
+    width: 380px;
     height: auto;
     margin-bottom: 16px;
     rotate: calc(-30deg);
     transform: scaleX(-1);
-    translate: 0 20px;
+    translate: -50px -35px;
   }
   
+  .sidebar-numbers{
+    display: flex;
+  }
+  .sidebar-numbers div{
+    display: inline;
+  }
   .sidebar-content {
-    padding: 16px;
+    margin-top: 30px;
+    margin-left: 50px;
+    color:white;
   }
   
   .sidebar-content h3 {
-    margin: 0;
+    margin-bottom: 20px;
   }
   
   .sidebar-content p {
-    margin-top: 8px;
-    color: #666;
+    margin: 0;
   }
   
   .sidebar-image-container{
-    background-color: rgb(89, 0, 255);
   }
