@@ -1,0 +1,23 @@
+footer {
+    background-color: lightgray;
+    padding: 20px;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .links a {
+    margin-right: 10px;
+  }
+  
+  .back {
+    font-weight: bold;
+  }
+  
+  .next {
+    font-weight: bold;
+  }
+  

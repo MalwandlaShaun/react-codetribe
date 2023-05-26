@@ -1,14 +1,17 @@
 import React from 'react';
 import imageA from "../assets/images/Porsche_design_A-removebg-preview.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { fa360Degrees } from '@fortawesome/free-regular-svg-icons'
+import { faPlus} from '@fortawesome/free-solid-svg-icons';
+import deg360 from "../assets/icons/002-360-degrees.png"
 
-import { faPlus} from '@fortawesome/free-solid-svg-icons'
 const Sidebar = () => {
- 
+
   return (
     <div className="sidebar">
-      <FontAwesomeIcon icon={fa360Degrees} />
+<div className='icon-degrees' >
+  5
+</div>
+<img src={deg360} className='deg360'/>
       <div className="sidebar-image-container">
         <img
           className="sidebar-image"
@@ -17,6 +20,7 @@ const Sidebar = () => {
         />
 
       </div>
+      <div className='sidebar-price'>$84</div>
       <div className="sidebar-content">
         <h3>Porsche Design</h3>
         <p>Lite racer slip - on</p>
@@ -28,7 +32,18 @@ const Sidebar = () => {
           <div>9</div>
         </div>
       </div>
-      <FontAwesomeIcon icon={faPlus} />
+      <div className='sidebar-boxes'>
+        <div class="square">
+          <div class="circle-1"></div>
+        </div>
+
+        <div class="square">
+          <div class="circle-2"></div>
+        </div>
+      </div>
+      
+
+      <FontAwesomeIcon icon={faPlus} className='sidebar-plus' />
     </div>
   );
 };

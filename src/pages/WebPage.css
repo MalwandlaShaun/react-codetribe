@@ -4,15 +4,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 30px;
+    padding-top: 20px;
+  background-color: #fcf2ff;
+
   }
   
   .card {
     width: 220px;
-    background-color: #ffffff;
+    background-color: #fcf2ff;
     border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 16px;
+    margin-right: 20px;
   }
   
   .arrow-icon{
@@ -26,6 +28,7 @@
     rotate: calc(-30deg);
     transform: scaleX(-1);
     translate: 0 20px;
+    
   }
   
   
@@ -42,13 +45,12 @@
 
   .card-title {
     font-size: 18px;
-    font-weight: bold;
     margin-bottom: 5px;
   }
   
   .card-price {
     font-size:40px;
-    color: rgb(185, 37, 173);
+    color: rgb(150, 0, 82);
     margin: 0;
     padding: 0;
   }
@@ -61,7 +63,7 @@
   }
 
   .card-details{
-    color: rgb(185, 37, 173);
+    color: rgb(150, 0, 82);
   }
 
   /* Styles for the sidebar */
@@ -71,10 +73,10 @@
     height: 80vh;
     margin-left: 50px;
     border: 1px solid #ccc;
-    border-radius: 35px;
-    background-color: rgb(89, 0, 255);
+    border-radius: 50px;
+    background-color: rgb(150, 130, 238);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    
+    position: relative;
   }
   
  
@@ -84,19 +86,72 @@
     margin-bottom: 16px;
     rotate: calc(-30deg);
     transform: scaleX(-1);
-    translate: -50px -35px;
+    translate: -50px -70px;
   }
   
   .sidebar-numbers{
     display: flex;
+    margin-top: 10px;
   }
   .sidebar-numbers div{
     display: inline;
+    padding: 16px;
+  }
+
+  .sidebar-numbers div:hover{
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgba(208, 203, 233, 0.767);
+
+  }
+
+  .sidebar-plus{
+    position: absolute;
+    bottom: 3.6rem;
+    right: 0rem;
+    padding: 2rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: 100;
+    border-radius: 0.8rem;
+    background-color: rgba(104, 80, 226, 0.767);
+
+  }
+
+  .sidebar-plus{
+    cursor: pointer;
+  }
+  .deg360{
+    width: 30px;
+    translate: -12px 45px;
+  
+  }
+
+  .icon-degrees{
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    top: -25px;
+    left: -15px;
+    width: 35px;
+    height: 35px;
+    display: inline;
+    padding: 20px;
+    color: white;
+    translate: -20px 45px;
+    
   }
   .sidebar-content {
-    margin-top: 30px;
+    margin-top: -40px;
     margin-left: 50px;
     color:white;
+  }
+  .sidebar-price{
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    font-size: 3rem;
+    color: white;
   }
   
   .sidebar-content h3 {
@@ -107,5 +162,126 @@
     margin: 0;
   }
   
-  .sidebar-image-container{
+
+  .sidebar-boxes{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 10px;
   }
+
+  .square:hover{
+    cursor: pointer;
+  }
+  .square {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .circle-1, .circle-2 {
+    width: 20px;
+    height: 20px;
+    background-color: lightgreen;
+    border-radius: 50%;
+  }
+  .circle-1{
+    background-color: #000;
+  }
+  .circle-2{
+    background-color: purple;
+  }
+  
+
+  /* Styles for the footer */
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fcf2ff!important;
+    translate: 0 -20px;
+    width: 60vw;
+    height: 40px;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    list-style: none;
+  }
+  
+  .links a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .back {
+    font-weight: bold;
+    width: 40px;
+    height: 20px;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 30px;
+    box-shadow: -2px 5px 2px rgba(0, 0, 0, 0.1);
+
+
+  }
+  
+  .next {
+    font-weight: bold;
+    width: 40px;
+    height: 20px;
+    background-color: violet;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 30px;
+    translate: -3.5px -10px;
+    box-shadow: -2px 10px 5px rgba(0, 0, 0, 0.1);
+  }
+  .next,.back:hover{
+    cursor: pointer;
+  }
+  .shoe-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .shoe{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* styling the links */
+
+  a {
+    text-decoration: none; 
+    color: #000; 
+    position: relative; 
+  }
+  
+  a:hover {
+    color: rgb(150, 0, 82);
+  }
+  
+  a:hover::after {
+    content: ""; 
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(150, 0, 82);; 
+    transition: background-color 0.9s ease;
+  }
+  
