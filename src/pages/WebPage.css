@@ -66,6 +66,11 @@
     color: rgb(150, 0, 82);
   }
 
+  .shoe{
+    width: 800px;
+    overflow: scroll;
+    scrollbar-width: none;
+  }
   /* Styles for the sidebar */
 
   .sidebar {
@@ -87,6 +92,7 @@
     rotate: calc(-30deg);
     transform: scaleX(-1);
     translate: -50px -70px;
+   
   }
   
   .sidebar-numbers{
@@ -193,13 +199,14 @@
     background-color: #000;
   }
   .circle-2{
-    background-color: purple;
+    background-color: violet;
   }
   
 
   /* Styles for the footer */
 
   footer {
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -207,6 +214,7 @@
     translate: 0 -20px;
     width: 60vw;
     height: 40px;
+    padding: 0;
   }
   
   .navigation {
@@ -214,6 +222,7 @@
     justify-content: space-between;
     margin-bottom: 10px;
     list-style: none;
+    align-items: center;
   }
   
   .links a {
@@ -224,22 +233,22 @@
   
   .back {
     font-weight: bold;
-    width: 40px;
-    height: 20px;
+    width: 60px;
+    height: 30px;
     background-color: gray;
     color: white;
     padding: 10px;
     padding-left: 20px;
     padding-right: 30px;
     box-shadow: -2px 5px 2px rgba(0, 0, 0, 0.1);
-
+    align-items: center;
 
   }
   
   .next {
     font-weight: bold;
-    width: 40px;
-    height: 20px;
+    width: 60px;
+    height: 30px;
     background-color: violet;
     color: white;
     padding: 10px;
