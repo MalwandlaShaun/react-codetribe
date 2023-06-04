@@ -6,7 +6,7 @@ import React from 'react';
 
   import image1 from "../assets/images/Porsche_design_1-removebg-preview.png"
   import image2 from "../assets/images/Porsche_design_4-removebg-preview.png"
-  import image3 from "../assets/images/Porsche_design_1-removebg-preview(1).png"
+  import image3 from "../assets/images/Porsche_design_1-removebg-preview(1).svg"
   import image4 from "../assets/images/Screenshot_1-removebg-preview.png"
   import image5 from "../assets/images/Screenshot_2-removebg-preview.png"
   import image6 from "../assets/images/Screenshot_3-removebg-preview.png"
@@ -71,6 +71,7 @@ import React from 'react';
         bgColor: "violet"
     }
   ];  
+  
     return (
       <>
       <div className="hero-section">

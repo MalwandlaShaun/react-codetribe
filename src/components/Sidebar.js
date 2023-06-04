@@ -16,13 +16,13 @@ const Sidebar = () => {
         <img
           className="sidebar-image"
           src= {imageA}
-          alt="sidebar Image"
+          alt="sidebar"
         />
 
       </div>
       <div className='sidebar-price'>$84</div>
       <div className="sidebar-content">
-        <h3>Porsche Design</h3>
+        <p>Porsche Design</p>
         <p>Lite racer slip - on</p>
         <p>design</p>
         <div className='sidebar-numbers'>
